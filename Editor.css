@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    animation: apear 3s;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+td{
+    width: 50%;
+}
+table{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+}
+.title{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 300%;
+}
+.table01{
+    background-color: rgb(211, 211, 211);
+}
+.titlebox{
+    position: relative;
+    width: 45%;
+    bottom: 2.1cm;
+    border: solid black 3px;
+    background-color: rgba(255, 255, 255, 50%);
+}
+.line{
+    border: solid black 1px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 3.5cm;
+    margin-top: 2cm;
+}
+.list{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 170%;
+    margin-left: 5cm;
+}
+.gambar2{
+    height: 9cm;
+    border: solid black 3px;
+    border-radius: 1cm 0cm 0cm 1cm;
+    margin-left: 10%;
+}
+.line1{
+    border: solid black 1px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-bottom: 3cm;
+    margin-top: 3.5cm;
+}
+.gambar3{
+    height: 9cm;
+    border: solid black 3px;
+    border-radius: 0cm 1cm 1cm 0cm;
+    margin-left: 10%;
+}
+.table02{
+    background-color: rgb(211, 211, 211);
+    width: 109%;
+    position: relative;
+    left: -3cm;
+}
+.nomor{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 175%;
+    position: relative;
+    left: 1cm;
+    text-align: center;
+}
+.moving{
+    background-color: rgb(211, 211, 211);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 1cm;
+    font-size: 150%;
+}
+@keyframes apear {
+    0%   {opacity: 0%;}
+    25%  {opacity: 25%;;}
+    50%  {opacity: 50%;}
+    75%  {opacity: 75%;}
+    100% {opacity: 100%;}
+  }
